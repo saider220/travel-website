@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0 clamp(2%, 5%, 10%);
+  box-sizing: border-box;
+  background-color: rgb(19, 19, 24);
+  font-family: "Cabin", sans-serif;
+  overflow-x: clip;
+}
+
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding-top: 1rem;
+}
+
+.logo img {
+  width: 5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.125rem;
+  margin-left: 1.875rem;
+}
+
+.nav-btn {
+  padding: 0.5rem 0.875rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.27)), url("/images/hero.jpg");
+  height: 800px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  margin: 12rem 0 0 0;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin: 1rem 0 5rem 0;
+}
+
+.hero a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.375rem;
+  background-color: #E99E20;
+  padding: 1rem 2.25rem;
+  border-radius: 50px;
+}
