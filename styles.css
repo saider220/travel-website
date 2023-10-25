@@ -2,9 +2,10 @@ body {
   margin: 0;
   padding: 0 clamp(2%, 5%, 10%);
   box-sizing: border-box;
-  background-color: rgb(19, 19, 24);
   font-family: "Cabin", sans-serif;
   overflow-x: clip;
+  background: rgb(235,235,235);
+  background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(219,224,230,1) 100%);
 }
 
 .main-container {
@@ -72,4 +73,50 @@ body {
   background-color: #E99E20;
   padding: 1rem 2.25rem;
   border-radius: 50px;
+}
+
+#trust-building {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 675px;
+  text-align: center;
+}
+
+.trust-card {
+  background-color: white;
+  width: 17.188rem;
+  height: 7.813rem;
+  border-radius: 23px;
+  box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.15);
+}
+
+.trust-card h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+.trust-card p {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+#featured h2 {
+  color: rgb(22, 22, 22);
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 4.688rem;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+  gap: 20px;
+  margin-bottom: 10rem;
+}
+
+.destination {
+  background-color: lightcoral;
+  width: 100%;
+  height: 320px;
 }
