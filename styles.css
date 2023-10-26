@@ -181,7 +181,6 @@ body {
   display: grid;
   grid-template-columns: 0.9fr 1fr;
   gap: 100px;
-  margin-bottom: 10rem;
 }
 
 .how-it-works-img {
@@ -233,4 +232,24 @@ body {
 .step-text p {
   margin: 0;
   font-size: 1rem;
+}
+
+footer {
+  background-color: #BBCAD8;
+  width: 100vw;
+  margin-left: calc(clamp(2vw, 5vw, 10vw) * -1);
+  height: 24.375rem;
+  margin-top: 8.25rem;
+  box-sizing: border-box;
+  padding: 6.6875rem clamp(2vw, 5vw, 10vw) 0 clamp(2vw, 5vw, 10vw);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-row {
+  
 }
