@@ -251,7 +251,7 @@ body {
 }
 
 .step-text p {
-  margin: 0;
+  margin: 0.25rem 0;
   font-size: 1rem;
 }
 
@@ -348,17 +348,16 @@ footer {
 @media (max-width: 984px) {
   .footer-container {
     justify-content: space-evenly;
-    text-align: center;
   }
  
   .footer-row {
-    text-align: center;
     margin-top: 2rem;
+    text-align: center;
   }
 
   .footer-row p {
     margin-right: auto;
-    margin-left: au to;
+    margin-left: auto;
   }
 
   footer {
@@ -407,7 +406,7 @@ footer {
   }
 
   .destination-text h3 {
-    font-size: clamp(1.25rem, 4vw, 1.75rem);
+    font-size: clamp(1.15rem, 4vw, 1.75rem);
   }
 
   .destination-text p {
@@ -426,6 +425,39 @@ footer {
     margin: 20px auto;
     width: 80%;
   }
+
+  .copyright {
+    text-align: center;
+    margin-top: left;
+  }
+
+  footer {
+    padding-bottom: 1rem;
+    margin-top: 5rem
+  }
+}
+
+@media (max-width: 600px) {
+  .step-card {
+    height: 200px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .step-text {
+    text-align: center;
+  }
+
+  .step-text p {
+    margin-top: 1rem;
+  }
+
+  .step-img img{
+    width: 5rem;
+    height: 5rem;
+  }
 }
 
 @media (max-width: 425px) {
@@ -433,14 +465,6 @@ footer {
     width: 400px
   }
 
-  .copyright {
-    text-align: center;
-    margin-top: 1rem;
-  }
-
-  footer {
-    padding-bottom: 1rem;
-  }
 }
 
 @media (max-width: 288px) {
